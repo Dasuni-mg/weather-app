@@ -19,11 +19,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "plugins": ["react"],
-  "rules": {
-    
-  }
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react"
+    ],
+    "rules": {}
   },
   "browserslist": {
     "production": [
@@ -38,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.6.1",
     "postcss-preset-env": "^9.5.9"
   }
 }
